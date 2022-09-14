@@ -22,7 +22,7 @@
   background-color: #393f4d;
   grid-column: 1/-1;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   
 }
 
@@ -37,6 +37,7 @@ ul{
 
 .menu ul{
   display: grid;
+  grid-template-columns: repeat(4,1fr);
 }
 
 .sidebar {
